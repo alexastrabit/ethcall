@@ -1,4 +1,4 @@
-import { Coder } from 'abi-coder';
+import { Coder } from '@alexastrabit/abi-coder';
 import type { JsonFragmentType } from 'ethers';
 import { Result } from 'ethers';
 

@@ -1,6 +1,6 @@
 {
-  "name": "ethcall",
-  "version": "6.0.2",
+  "name": "@alexastrabit/ethcall",
+  "version": "6.0.21",
   "description": "ethers.js-compatible wrapper around Multicall",
   "author": "Timur Badretdinov <destinerx@gmail.com>",
   "keywords": [
@@ -10,9 +10,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Destiner/ethcall.git"
+    "url": "https://github.com/alexastrabit/ethcall.git"
   },
-  "type": "module",
+  "type": "commonjs",
   "main": "lib/index.js",
   "exports": "./lib/index.js",
   "scripts": {
@@ -24,6 +24,7 @@
     "prepack": "npm run build"
   },
   "dependencies": {
+    "@alexastrabit/abi-coder": "^5.0.0",
     "@types/node": "^20.2.5",
     "abi-coder": "^5.0.0"
   },
